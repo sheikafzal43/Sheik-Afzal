@@ -1,0 +1,277 @@
+#top{
+    
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none; 
+      
+}
+#top li{
+float: right;
+padding: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;;
+
+
+}
+#top li a{
+text-decoration: none;
+text-align: right;
+color: #000000;
+}
+#Location li a{
+text-decoration: none;
+list-style: none;
+color: #000000;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-style: normal;;
+padding: 15px;
+text-align: left;
+
+}
+
+#Location{
+margin: left;
+padding: 15px;
+list-style: none;
+
+
+}
+#Location li a{
+font-family: "Satisfy", cursive;
+font-weight: 400;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+}
+
+/*
+1. Link Hover is here 
+*/  
+#link {
+    padding: 10px;
+    margin: 0 auto; /* Centers the element horizontally */
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center; /* Centers the text within the container */
+  }
+  
+  #link a {
+    color: #000000;
+    text-decoration: none;
+    padding: 8px;
+    display: inline-block; /* Change from flex to inline-block */
+  }
+  
+  #link a:hover {
+    background-color: rgb(136, 136, 136);
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*Table is here and this is the order part*/
+/*{
+    
+    margin: 3px;
+    padding: 3px;
+    
+}*/
+#baground{
+    background-color: antiquewhite;
+    margin: 3px;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.small-container{
+    margin: 10px auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: #ff533b;
+    font-weight: normal;
+}
+
+td{
+    padding: 10px 5px;
+
+}
+
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a{
+    color: #ff533b;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+td img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+
+}
+
+
+
+.total-price{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.total-price table{
+    border-top: 3px solid #ff523b;
+    width: 100%;
+    max-width: 400px;
+}
+
+
+td:last-child{
+    text-align: right;
+}
+
+th:last-child{
+    text-align: right;
+}
+
+
+
+
+.submits{
+    display: flex;
+    justify-content: end;
+    
+}
+
+button{
+    width: 32%;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    background-image: linear-gradient(to right,#0725aa,#042e61);
+}
+
+button:hover{
+    background-image: linear-gradient(to right, #042e61, #0725aa);
+}
+
+
+
+
+
+
+/* This area is the footer css this part has been mobile ]
+  responsive */
+  #footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  #icon{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+#icon i{
+    text-decoration: none;
+    padding: 10px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+#icon i:hover{
+    background-color: #093a7d;
+    transition: 0.5s;
+} 
+
+#icon i:hover{
+    color: #fff;
+    transition: 0.5s;
+} 
+
+#fnav{
+    margin: 30px o;
+}
+#fnav ul{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;;
+    list-style: none;
+
+}
+#fnav ul li a{
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+#fnav ul li a:hover{
+    opacity: 1;
+}
+
+#fbot{
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
+#fbot p{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fb{
+    background-color: #093a7d;
+}
+
+@media(max-width:700px){
+    #fnav ul{
+        flex-direction: column;
+    }
+    #fnav ul li a{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}

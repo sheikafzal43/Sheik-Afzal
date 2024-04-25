@@ -1,0 +1,88 @@
+body{
+    background-image: url(../Img/Solar.jpg);
+    background-size: cover;
+    
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 46rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login{
+    border: 1px solid#111;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.75);
+    width:27rem;
+    height: 37rem;
+    overflow: hidden;
+}
+
+.form{
+    display: grid;
+    place-content:center;
+    box-sizing: border-box;
+    background-color: rgb(244, 244, 244);
+    /*background-image: url(../Img/bag.jpg);*/
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    display: grid;
+    place-content: center;
+    margin-top: -5rem;
+    font-size: 2.5rem;
+    margin-bottom: 75px;
+    color:rgb(0, 0, 0);
+}
+
+input{
+    background: transparent;
+    width: 18rem;
+    height: 1.5rem;
+    font-size: 0.9rem;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    padding: 7px;
+}
+
+::placeholder{
+    color: rgb(0, 0, 0);
+    padding: 4px;
+}
+
+label{
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+button{
+    margin-top: 2rem;
+    width: 19rem;
+    height: 2.4rem;
+    font-weight: bold;
+    border: 2px solid#432626;
+    border-radius: 1rem;
+    background-color: rgb(33, 145, 35);
+    color: aliceblue;
+    box-shadow: #898989;
+}
+
+p{
+    margin: 0.1rem 0 -1rem 0;
+    padding: 0.3rem;
+}
+
+a{
+    cursor: pointer;
+    font-weight: bold;
+}
