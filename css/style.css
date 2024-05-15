@@ -1,0 +1,285 @@
+/*This part is the header*/
+#top{
+    
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        list-style: none; 
+          
+}
+#top li{
+    float: right;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+
+    
+}
+#top li a{
+    text-decoration: none;
+    text-align: right;
+    color: #000000;
+}
+#Location li a{
+    text-decoration: none;
+    list-style: none;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;;
+    padding: 15px;
+    text-align: left;
+    
+}
+
+#Location{
+    margin: left;
+    padding: 15px;
+    list-style: none;
+    
+    
+}
+#Location li a{
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+  /*
+  1. Link Hover is here 
+*/  
+#link {
+  padding: 10px;
+  margin: 0 auto; /* Centers the element horizontally */
+  overflow: hidden;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center; /* Centers the text within the container */
+}
+
+#link a {
+  color: #000000;
+  text-decoration: none;
+  padding: 8px;
+  display: inline-block; /* Change from flex to inline-block */
+}
+
+#link a:hover {
+  background-color: rgb(136, 136, 136);
+}
+
+
+
+
+
+
+#bg{
+    
+        height: 500px;
+        border: 3px rgba(203, 40, 22, 0.549);
+        background: url(../Img/1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+   
+}
+
+/*New serch*/
+.box{
+  height: 30px;
+  width: 100%;
+  display: flex;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #22c517;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  
+}
+
+.box:hover input{
+  width: 100%;
+}
+
+.box input{
+  width: 0;
+  outline: none;
+  border: none;
+  font-weight: 500;
+  transition: 0.8s;
+  background: transparent;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+}
+
+.box ,a .fas{
+  color: #000000;
+  font-size: 18px;
+  
+}
+
+
+/*The new search finishes from here*/
+
+
+
+  
+ /*Tis part is the main section all the content is put inside this.*/
+  #h{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    color: rgb(5, 42, 97);
+  }
+  #p{
+    
+        font-family: "Abel", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-weight: 800;
+      
+      
+  }
+
+  #p1{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 800;
+  }
+  #n{
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 800;
+    margin-left: 100px;
+    
+  }
+  #h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+    text-align:left;
+    font-weight: bold;
+    color: hwb(216 2% 62%);
+  }
+  #m{
+    background-color: antiquewhite;
+  }
+  /* This area is the footer css this part has been mobile ]
+  responsive */
+  #footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+  }
+  #icon{
+    display: flex;
+    justify-content: center;
+    
+    
+  }
+#icon i{
+    text-decoration: none;
+    padding: 10px;
+    background-color: aqua;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    
+}
+#icon i:hover{
+    background-color: #093a7d;
+    transition: 0.5s;
+} 
+
+#icon i:hover{
+    color: #fff;
+    transition: 0.5s;
+} 
+
+#fnav{
+    margin: 30px o;
+}
+#fnav ul{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;;
+    list-style: none;
+
+}
+#fnav ul li a{
+    color: #ffffff;
+    margin: 20px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+#fnav ul li a:hover{
+    opacity: 1;
+}
+
+#fbot{
+    background-color: #0b2236;
+    padding: 1px;
+    text-align: center;
+}
+
+#fbot p{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#fb{
+    background-color: #093a7d;
+}
+
+
+
+
+
+
+@media(max-width:700px){
+    #fnav ul{
+        flex-direction: column;
+    }
+    #fnav ul li a{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  #footercontainer {
+      padding: 50px 15px 10px; /* Reduced padding for smaller screens */
+      text-align: center; /* Center align text for smaller screens */
+  }
+
+  #fnav ul {
+      flex-direction: column; /* Stack navigation items vertically on smaller screens */
+      align-items: center; /* Center align items */
+  }
+
+  #fnav ul li {
+      margin: 10px 0; /* Reduced margin for smaller screens */
+  }
+
+  #fbot p {
+      text-align: center; /* Ensure footer text is centered */
+  }
+}
